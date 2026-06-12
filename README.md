@@ -6,5 +6,5 @@
 Готовые контейнеры STL для хранения очереди не используются.
 Узлы очереди оформлены отдельным классом QueueNode.
 
-Сборка:
+Проект состоит из четырёх файлов исходного кода: header.h, main.cpp, poliklinika.cpp, input.cpp. Компиляция выполняется командой:
 g++ -std=c++11 main.cpp poliklinika.cpp input.cpp -o poliklinika
